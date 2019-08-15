@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<title>Dashboard</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/chart.css">
+		<link rel="stylesheet" type="text/css" href="assets/mdi/css/materialdesignicons.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/dash.css">
+
+		 <!--[if lt IE 9]>      <script src="https://oss.maxcdn.com/libs/html5shiv/ 3.7.0/html5shiv.js"></script>      <script src="https://oss.maxcdn.com/libs/ respond.js/1.4.2/respond.min.js"></script>    <![endif]-->
+
+	</head>
+	
+	<body>
+	
+		<div class="container-fluid all">
+			<div class="row">
+					<div class="col-md-3 dark">
+						<div class="text-center">
+							<img src="./assets/image/self.jpg" class="img-responsive ">
+							<p style="color: grey">Kwaku Baah <i class="mdi mdi-chevron-down"></i>
+							</p>
+							<hr>
+						</div>
+						<div>
+							<h1>Main</h1>
+							<div class="list-group main">
+								<a href="" class="list-group-item"><span class="mdi mdi-home">    HOME</span></a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-treasure-chest">    JOB</span></a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-file-document-outline"></span>    RESUMES</a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-clipboard-text"></span>    TASK</a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-calendar"></span>    CALENDAR</a>
+							</div>
+							<hr>
+						</div>
+
+						<div>
+							<h1>Admin</h1>
+							<div class="list-group main">
+								<a href="" class="list-group-item"><span class="mdi mdi-account-supervisor">    USERS</span></a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-map-marker-outline">    LOCATION</span></a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-chip"></span>    WORKFLOWS</a>
+
+								<a href="" class="list-group-item active"><span class="mdi mdi-cpu-32-bit"></span>    JOB BOARDS</a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-account-group-outline"></span>       SOCIAL</a>
+							</div>
+							<hr>
+						</div>
+
+						<div>
+							<label class="container box">
+								<h1>Categories</h1>
+								  <input type="checkbox" checked="checked">
+								  <span class="checkmark"></span>Administrative
+								</label>
+
+								<label class="container">
+								  <input type="checkbox">
+								  <span class="checkmark"></span>Design
+								</label>
+
+								<label class="container">
+								  <input type="checkbox">
+								  <span class="checkmark"></span>Executive
+								</label>
+
+								<label class="container">
+								  <input type="checkbox">
+								  <span class="checkmark"></span>Human Resources
+								</label>
+						</div>
+					</div>
+					
+				<div class="col-md-9 core">
+
+					<nav class="navbar navbar-default len">
+							<div class="navbar-header">
+								<a href="" class="navbar-brand style"><i class="mdi mdi-menu-left"></i>
+								<i class="mdi mdi-menu"></i>
+								</a>
+							</div>
+							
+						<form class="form">
+							<div class="form-group">
+								<input type="text" class="form-control  icon" placeholder="Search for a job,task or resume " >
+
+									<ul class="nav navbar-nav link">
+										<li><a href=""><i class="mdi mdi-account-plus"></i></a></li>
+										<li><a href=""><i class="mdi mdi-calendar-text-outline"></i></a></li>
+										<li><a href=""><i class="mdi mdi-apps"></i></a></li>
+									</ul>
+							</div>
+						</form>
+					</nav>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-7">
+								<h2>Customer Service Representative</h2>
+								<p style="color: blue"><span class="mdi mdi-map-marker-outline" style="color: grey">Accra,Ghana</span> . Preview this Post</p>
+							</div>
+							<div class="col-md-5">
+								<div class="butts text-right">
+									<button class="button"><span class="mdi mdi-toggle-switch-off-outline"></span>   Open
+									</button>
+									<button class="button"><span class="mdi mdi-bookmark"></span>
+									</button>
+									<button class="button"><span class="mdi mdi-pencil"></span>
+									</button>
+									<button	<span class="mdi mdi-home-analytics"></span>
+									</button>
+								</div>
+							</div>
+						</div>
+						
+						
+						
+						
+
+
+
+						<div class="link2">
+							<a href="#">SUMMARY</a>
+							<a href="#">APPLICANTS</a>
+							<a href="#">JOB BOARD</a>
+							<a href="#">INTERVIEWS</a>
+							<a href="#">ACTIVITY</a>
+							<a href="#">BROADCAST</a>
+							<a href="#">NOTIFICATIONS</a>
+						</div>
+						
+					</div>
+					<div class="container-fluid back">
+					
+							<div class="row" style="margin-top: 3rem;margin-bottom: 3rem;">
+									<div class="col-md-3">
+									
+										<canvas id="myChart" width="400" height="400" ></canvas>
+									</div>
+									<div class="col-md-3">
+										<canvas id="myChart2" width="400" height="400" ></canvas>
+
+									</div>
+
+									<div class="col-md-3">
+							    	<canvas id="barChart" width="400" height="400"></canvas>
+							    	</div>
+
+							    	<div class="col-md-3">
+							    	<canvas id="barChart2" width="400" height="400"></canvas>
+							    	</div>
+
+							    	<div class="col-md-6 text-center badges">
+							    		<span class="badge">PERFORMANCE RATE</span>
+							   		</div>
+
+							   		<div class="col-md-6 text-center badges">
+							   			<span class="badge">WORKERS/DAYS</span>
+							   		</div>
+
+
+								
+							</div>
+							
+
+							<hr class="mdi mdi-chevron-up">
+
+							<div class="row">
+								<div class="col-md-8 tabs ">
+									<ul class="list-group lists">
+										<li class="list-group-item" style="background-color: grey;">
+											<div class="row">
+												<div class="col-md-5"><h3 style="font-size: 15px;font-weight: bold;color:silver;">JOB DESCRIPTION</h3></div>
+												<div class="badge  col-md-7" style="font-size: 15px;padding: 2rem;width: 90px;"><span class="mdi mdi-pencil">EDIT</span</div>
+											</div>
+											
+										</li>
+
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-5"><p>POSITION TITLE</p></div>
+												<div class="col-md-7"><p>Customer Service Representitive</p></div>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-5"><p>LOCATION</p></div>
+												<div class="col-md-7"><p>Taifa,Accra</p></div>
+											</div>
+											
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-5"><p>EMPLOYMENT TYPE</p></div>
+												<div class="col-md-7"><p>Full-time</p></div>
+											</div>
+											
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-5"><p>STATUS</p></div>
+												<div class="col-md-7"><p>Open</p></div>
+											</div>
+											
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-5"><p>EXPERIENCE</p></div>
+												<div class="col-md-7"><p>Mid-level</p></div>
+											</div>
+											
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-5"><p>DESCRIPTION</p></div>
+												<div class="col-md-7"><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+												consequat. 
+												.</p></div>
+											</div>
+											
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-5"><p>HIRING LEAD</p></div>
+												<div class="col-md-7"><p>Tom Tizzy</p></div>
+											</div>
+											
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-md-5"><p>APPROVED SALARY</p></div>
+												<div class="col-md-7"><p>$58,000</p></div>
+											</div>
+											
+										</li>
+									</ul>
+									
+								</div>
+								<div class="col-md-4">
+									<ul class="icons">
+										<li><button class="btn btn-block btn-md btn-primary"><span class="mdi mdi-facebook"> Post to Facebook</span></button></li>
+										<li><button class="btn btn-block btn-md btn-primary"><span class="mdi mdi-twitter">   Tweet this job</span></button></li>
+										<li><button class="btn btn-block btn-md btn-primary"><span class="mdi mdi-linkedin">   Post to linkedin</span></button></li>
+									</ul>
+									<div class="side">
+										<h4><span class="mdi mdi-web"></span>Link to this Job</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut 
+										</p>
+										<form class="form">
+											<input type="text" class="form-control copy" placeholder="http://kkabshouseware...///">
+											<button type="button" class="btn-info">Copy</button>
+										</form>
+										
+										<div>
+											<hr>
+										</div>
+										<h4><span class="mdi mdi-widgets"></span>Use the Button Widget</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor  
+										</p>
+										<form class="form">
+											<input type="text" class="form-control copy" placeholder="<scpript type> text/javascript...">
+											<button type="button" class="btn-info">Copy</button>
+										</form>
+										<div>
+											<hr>
+										</div>
+										<h4><span class="mdi mdi-arch"></span>Upload Resumes by Email</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor 
+										</p>
+										<form class="form">
+											<input type="text" class="form-control copy" placeholder="http://kkabshouseware...///">
+										</form>
+										
+									</div>
+									
+								</div>
+							</div>
+								
+							
+						
+						
+					</div>
+
+				</div>
+			</div>
+		</div>
+			
+		
+
+
+		<script type="text/javascript" src="assets/js/charts.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="/js/bootstrap.js"></script>
+
+		<script type="text/javascript">
+			new Chart (document.getElementById('myChart'), {
+				type: 'doughnut',
+				data: {
+					labels:['gold','linen'],
+					datasets:[{
+						label: 'Number of views',
+						data:[30,40],
+						backgroundColor:['gold', 'linen'],
+
+					}]
+				}
+			})
+
+			new Chart (document.getElementById('myChart2'), {
+				type: 'doughnut',
+				data: {
+					labels:['gold','linen'],
+					datasets:[{
+						label: 'Number of views',
+						data:[30,40],
+						backgroundColor:['gold', 'linen'],
+
+					}]
+				}
+			})
+
+			new Chart(document.getElementById('barChart'), {
+				type: 'bar',
+				data:{
+					labels: ['S', 'M', 'T','W','T','F','S'],
+
+					datasets:[{
+						label:'Days of The week',
+						data:[50, 60,70,80,90,20,30],
+						backgroundColor:['gold', 'black','gold','black'],
+
+					}]
+				}
+		    })
+
+		    new Chart(document.getElementById('barChart2'), {
+				type: 'bar',
+				data:{
+					labels: ['S', 'M', 'T','W','T','F','S'],
+
+					datasets:[{
+						label:'Days of The week',
+						data:[50, 60,70,80,90,20,30],
+						backgroundColor:['black', 'gold','black','gold'],
+
+					}]
+				}
+		    })
+		</script>
+
+	</body>
+</html>

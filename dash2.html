@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<title>Dashboard2</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/chart.css">
+		<link rel="stylesheet" type="text/css" href="assets/mdi/css/materialdesignicons.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/dash2.css">
+
+		 <!--[if lt IE 9]>      <script src="https://oss.maxcdn.com/libs/html5shiv/ 3.7.0/html5shiv.js"></script>      <script src="https://oss.maxcdn.com/libs/ respond.js/1.4.2/respond.min.js"></script>    <![endif]-->
+
+	</head>
+	
+	<body>
+
+			<div class="container-fluid">
+				<div class="row grand">
+					<div class="col-md-2 main">
+							<div class="lone">
+								<h1>FREELANCER</h1>
+							</div>
+							
+						
+							<div class="list-group side">
+								<h2 class="list-group-item first" >    HOME</h2>
+								<a href="" class="list-group-item"><span class="mdi mdi-account-supervisor">    Overview</span></a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-map-marker-outline">       Members</span></a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-chip">     Reports</span><i class="badge">20</i></a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-account-supervisor">   Schedule</span></a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-map-marker-outline">   Invoices</span><i class="badge">13</i></a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-chip"></span>    Marketing</a>
+
+								<a href="" class="list-group-item"><span class="mdi mdi-chip"></span>    Settings</a>
+							</div>
+
+							<div class="Visit text-center">
+								<button class="btn btn-warning">Visit Store</button>
+							</div>
+
+							
+					</div>
+					
+					<div class="col-md-10 core">
+						<nav class="navbar navbar-default">
+							<div class="col-md-7">
+								<div class="navbar-header hed">
+								<a href="" class="navbar-brand logo">
+								<i class="mdi mdi-menu"></i>
+								</a>
+							</div>
+							</div>
+							
+							<ul class="nav navbar-nav selfy">
+								<li><img src="./assets/image/self.jpg" class="img-responsive"></li>
+								<li><p style="margin: 3rem;">Kwaku Baah</p></li>
+								<li style="margin-top: 3rem;font-size: 20px;">
+									<i class="mdi mdi-chevron-down" ></i>
+								</li>
+								
+							</ul>
+
+							
+						</nav>
+
+						<div class="container-fluid">
+							<div class="row">
+								<div class="panel panel-default">
+									<div class="panel-heading month">
+										
+										<div class="col-md-6 text-right">
+										<p>Summary Of This Month</p>
+										</div>
+										<div class="col-md-6 text-right">
+										<p><i class="mdi mdi-calendar"></i>
+										01/08/19-31/09/19</p>
+										</div>	
+									</div>
+									<div class="panel-body ">
+										<div class="row ">
+											<div class="col-md-3 text-center pan1">
+												<div class="row text-center">
+														<div class="col-md-4 ">
+															<i class="mdi mdi-currency-usd coll"></i>
+														</div>
+														<div class="col-md-8">
+															<h5 >$11000</h5>
+														<p>INCOME</p>
+														
+														</div>
+														
+												</div>
+												<hr>
+												<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+												</p>
+											</div>
+										
+											<div class="col-md-3 pan2">
+												<div class="row text-center">
+														<div class="col-md-4 ">
+															<i class="mdi mdi-download coll"></i>
+														</div>
+														<div class="col-md-8">
+															<h5 >$1180</h5>
+														<p>DOWNLOADS</p>
+														
+														</div>
+														
+												</div>
+												<hr>
+												<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+												</p>
+											</div>
+											<div class="col-md-3 pan3">
+												<div class="row text-center">
+														<div class="col-md-4 ">
+															<i class="mdi mdi-account-multiple coll"></i>
+														</div>
+														<div class="col-md-8">
+															<h5 >975</h5>
+														<p>NEW VIEWS</p>
+														
+														</div>
+														
+												</div>
+												<hr>
+												<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+												</p>
+											</div>
+											<div class="col-md-3 pan4">
+												<div class="row text-center">
+														<div class="col-md-4 ">
+															<i class="mdi mdi-comment-text-multiple-outline coll"></i>
+														</div>
+														<div class="col-md-8">
+															<h5 >300</h5>
+														<p>COMMENTS</p>
+														
+														</div>
+														
+												</div>
+												<hr>
+												<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+								
+								</div>
+							</div>
+
+							<div class="row ">
+								<div class="col-md-6 graph">
+									<canvas id="lineChart" width="400" height="250" ></canvas>
+
+									<div class="row Activity">
+										<ul class="list-group time">
+											<li class="list-group-item ">
+												<h2>Activity Timeline</h2>
+											</li>
+											<li class="list-group-item Timeline">
+												<div class="row income ">
+													<div class="col-md-4 " style="padding-top: 2rem;">
+														<button class="btn btn-danger ">INCOME</button>
+													</div>
+													<div class="col-md-5">
+														<h2 >Online Payment</h2>
+														<p>by k-kabs</p>
+													</div>
+													<div class="col-md-3 text-right">
+														<h2>$400</h2>
+														<p>10 : 30am</p>
+													</div>
+												</div>
+											</li>
+											
+											<li class="list-group-item Timeline">
+												<div class="row income ">
+													<div class="col-md-4" style="padding-top: 2rem;">
+														<button class="btn btn-success">DOWNLOADS</button>
+													</div>
+													<div class="col-md-5">
+														<h2>Epic project</h2>
+														<p>by Nakwa Arms</p>
+													</div>
+													<div class="col-md-3 text-right">
+														<h2>600 GB</h2>
+														<p>12 : 00pm</p>
+													</div>
+												</div>
+											</li>
+
+											<li class="list-group-item Timeline">
+												<div class="row income ">
+													<div class="col-md-4" style="padding-top: 2rem;">
+														<button class="btn btn-warning">NEW VIEWS</button>
+													</div>
+													<div class="col-md-5">
+														<h2>Photpshop Resources</h2>
+														<p>Desino Plus</p>
+													</div>
+													<div class="col-md-3 text-right">
+														<h2>1245</h2>
+														<p>2 : 40pm</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-6 Members">
+									<div class="row">
+										<ul class="list-group ">
+											
+											<li class="list-group-item ">
+												<div class="row">
+													<div class="col-md-6" >
+														<h4>Top Active Members</h4>
+													</div>
+													<div class="col-md-3 ">
+														<h4>VIEWS</h4>
+														
+													</div>
+													<div class="col-md-3 ">
+														<h4>COMMENTS</h4>
+														
+													</div>
+												</div>
+											</li>
+											
+											
+											<li class="list-group-item Timeline">
+												<div class="row income ">
+													<div class="col-md-2">
+													<img src="./assets/image/hand.jpg" class="img-responsive">
+													</div>
+													<div class="col-md-4">
+														<h2>Joseph Akyin</h2>
+														<p>Designer</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>458</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>13</p>
+													</div>
+												</div>
+											</li>
+											
+											<li class="list-group-item Timeline">
+												<div class="row income ">
+													<div class="col-md-2">
+													<img src="./assets/image/nak.jpg" class="img-responsive">
+													</div>
+													<div class="col-md-4">
+														<h2>K-Kabs</h2>
+														<p>front-end</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>535</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>19</p>
+													</div>
+												</div>
+											</li>
+
+											<li class="list-group-item Timeline">
+												<div class="row income ">
+													<div class="col-md-2">
+													<img src="./assets/image/logo2.jpg" class="img-responsive">
+													</div>
+													<div class="col-md-4">
+														<h2>kofi kyei</h2>
+														<p>Projects</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>570</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>11</p>
+													</div>
+												</div>
+											</li>
+
+											<li class="list-group-item Timeline">
+												<div class="row income ">
+													<div class="col-md-2">
+													<img src="./assets/image/nakw.jpg" class="img-responsive">
+													</div>
+													<div class="col-md-4">
+														<h2>Kwabs</h2>
+														<p>Designer</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>185</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>23</p>
+													</div>
+												</div>
+											</li>
+
+											<li class="list-group-item Timeline">
+												<div class="row income ">
+													<div class="col-md-2">
+													<img src="./assets/image/hands.jpg" class="img-responsive">
+													</div>
+													<div class="col-md-4">
+														<h2>Dastro</h2>
+														<p>Art Manager</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>125</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>10</p>
+													</div>
+												</div>
+											</li>
+											<li class="list-group-item Timeline">
+												<div class="row income ">
+													<div class="col-md-2">
+													<img src="./assets/image/nakwa2.jpg" class="img-responsive">
+													</div>
+													<div class="col-md-4">
+														<h2>Chevy-Non</h2>
+														<p>Producer</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>255</p>
+													</div>
+													<div class="col-md-3 bold">
+														<p>19</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+
+		
+
+
+
+		
+
+
+
+
+
+
+		<script type="text/javascript" src="assets/js/charts.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+
+		<script type="text/javascript">
+			
+			new Chart(document.getElementById('lineChart'), {
+				type: 'line',
+				data:{
+					labels: ['1 Jul', '3 Jul', '6 Jul','9 Jul','11 Jul','14 Jul'],
+
+					datasets:[{
+						label:'Activity LineChart',
+						data:[100, 300,600,800,900,1000],
+						backgroundColor:['orange', 'linen','orange','linen','orange','linen'],
+
+					}]
+				}
+		    })
+
+		</script>
+
+
+
+
+	</body>
+</html>
+	

@@ -1,0 +1,52 @@
+.logo img{
+	height: 85px;
+	padding-bottom: 1rem;
+
+}
+.lenn{
+	height: 90px;
+	background-color: transparent;
+	border: none;
+
+}
+.nav.links>li>a{
+	padding-top: 2rem;
+	color: brown;
+	font-weight: bold;
+}
+.nav.links>li>a:hover{
+	border-style: solid;
+	color: brown;
+}
+
+h1{
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+
+.background{
+	background-image: url(../image/back2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+.move{
+	color: white;
+}
+
+.footer{
+	background-color:#350909;
+	height:60px;
+	color: white;
+	margin: none;
+
+}
+
+ul.icons>li{
+	list-style: none;
+	float: right;
+	padding-left: 20px;
+	font-size: 20px;
+	padding:2rem;
+}

@@ -1,0 +1,158 @@
+h1{
+	font-size: 23px;
+	padding: 1rem;
+	text-align: center;
+	
+}
+.lone{
+	background-color:grey;
+	color: orange;
+	border-color: grey;
+
+	border-style:solid;
+	border-width: 1px;
+}
+.side{
+	font-size: 20px;
+	font-family: bold;
+}
+.main{
+
+}	
+h2{
+	font-size: 17px;
+	color:#2c4a2f;
+	font-weight: bold;
+}
+
+.first{
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 3rem;
+    margin-top: 0rem;
+}
+.logo{
+	font-size: 40px;
+}
+.hed{
+	padding: 1rem;
+}
+.selfy img{
+	height: 60px;
+	width: 60px;
+	border-radius: 73px;
+	margin:1rem; 
+}
+.selfy {
+	float: right;
+	padding-right: 2rem;
+	font-weight: bold;
+}
+.month{
+	height: 50px;
+	font-weight: bold;
+}
+.income{
+}
+button{
+	width: 140px;
+}
+.time{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+h4{
+	font-size: 12px;
+	color: grey;
+	font-weight: bold;
+}
+p{
+	color: grey;
+	font-style: italic;
+
+}
+.Members{
+	padding: 2rem;
+
+}
+.Members img{
+	border-radius: 30px;
+	height: 50px;
+	margin-top: 1rem;
+}
+.Timeline{
+
+}
+.bold p{
+	margin-top: 2rem;
+	font-weight:bolder;
+	font-size:15px; 
+}
+.Visit{
+	margin-top: rem;
+}
+.main{
+	position: fixed;
+	z-index:1 ;
+	top:0;
+	left:20px;
+	overflow-x: hidden;
+	background-color: white;
+
+}
+.core{
+	left: 220px;
+}
+body{
+	background-color: #699087;
+}
+#lineChart>data{
+	color: silver;
+}
+.badge{
+	margin-top: 1rem;
+}
+
+canvas{
+	background-color: white;
+	margin-top: 2rem;
+
+}
+.graph{
+	
+}
+.Activity{
+	
+}
+.red{
+	display: inline-block;
+}
+.coll{
+	padding-top: rem;
+	font-size: 40px;
+}
+h5{
+	font-size: 30px;
+	color: silver;
+}
+.pan1{
+	background-color: #2c4a2f;
+	margin: 1rem;
+	width: 22.5%;
+}
+.pan2{
+	background-color: orange;
+	margin: 1rem;
+	width: 22.5%;
+}
+.pan3{
+	background-color: green;
+	margin: 1rem; 
+	width: 22.5%;
+}
+.pan4{
+	background-color: brown;
+	margin: 1rem;
+	width: 22.5%;
+}

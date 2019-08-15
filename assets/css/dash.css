@@ -1,0 +1,143 @@
+.icon{
+	width:72.3%;
+	display: inline-block;
+	border-radius: 1px;
+	height: 49px;
+}
+
+.dark{
+	background-color: black;
+	height:100%;
+	width: 260px;
+	position: fixed;
+	z-index:1 ;
+	top:0;
+	left:20px;
+	overflow-x: hidden;
+}
+.core{
+	
+	left:230px ;
+}
+.len{
+	background-color:;
+	margin-right: 3rem;
+	height:50px;
+}
+.dark img{
+	border-radius:250px;
+	width: 250px;
+	height:250px;
+	padding: 2rem;
+}
+
+.style{
+	font-size: 20px;
+}
+.nav.link>li>a{
+	font-size: 20px;
+	
+}
+.link{
+float: right;
+}
+.link2{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.link2>a{
+	padding-right: 3rem;
+	font-size: 10px;
+	font-weight: bold;
+	color: grey;
+	line-height:5px;
+
+}
+.main>a{
+	font-size: 12px;
+	background-color: transparent;
+	border-color: black;
+	font-weight: bold;
+	color: silver;
+}
+h1{
+	font-size: 12px;
+	font-weight: bold;
+}
+h2{
+	font-size: 20px;
+	font-family: ;
+}
+.back{
+	background-color: silver;
+}
+.lists{
+	font-size: 11px;
+	font-weight: bold;
+}
+ul.icons>li{
+	list-style: none;
+	padding-top: 1rem;
+	
+	width: 200px;
+}
+#myChart{
+	height:200px !important;
+	width: 200px !important;
+}
+#myChart2{
+	height:200px !important;
+	width: 200px !important;
+}
+
+#barChart{
+ 	height: 200px !important;
+ 	width: 200px !important;
+ }
+
+#barChart2{
+ 	height: 200px !important;
+ 	width: 200px !important;
+ }    
+
+}
+.butts>button{
+	border-radius:6px;
+}
+
+.butts{
+	padding-top: 3rem;
+	padding-right: 2rem;
+}
+.copy{
+	display: inline-block;
+	width:150px;
+}
+.side{
+	font-size: 11px;
+	margin:4rem;
+	display: 
+}
+body{
+	background-color: linen;
+}
+h4{
+	font-size: 15px;
+	font-weight: bold;
+}
+.tabs{
+	margin-top: 1rem;
+}
+.all{
+	margin:4rem;
+}
+.badge{
+
+	color:linen ;
+	padding: 1rem;
+	border-radius: 50px;
+}
+.badges{
+	padding-top: 3rem;
+}

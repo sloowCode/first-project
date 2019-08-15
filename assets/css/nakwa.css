@@ -1,0 +1,53 @@
+.logo{
+	height: 100px;
+}
+
+.nav.link>li>a{
+	font-weight: bold;
+	color: green;
+}
+.nav.link>li>a:hover{
+	border-style: solid;
+	color: green;
+}
+.len{
+	background: transparent;
+	border: none;
+}
+.back{
+	background-image: url(../assets/image/nakwa4.jpg);
+	background-size: cover;
+	height: 660px;
+
+}
+.move{
+	
+	color: green;
+}
+
+.rrr{
+	margin-top: 5rem;
+}
+
+ul.icons>li{
+list-style: none;
+float: right;
+padding-left: 20px;
+}
+
+ul.icons>li>a{
+color: white;
+}
+
+.footer{
+	margin-top: 28rem;
+	height: 50px;
+	color: white;
+	background-color: green;
+}
+ul.icons>li{
+color:white;
+padding-left: 20px;
+font-size: 20px;
+padding: 1rem;
+}
